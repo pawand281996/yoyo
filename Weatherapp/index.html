@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather Forecast</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  
+</head>
+
+<body>
+    <main>
+           
+           
+  
+    <div class="container">
+            <div id="loader" class="class_loader">
+                    <div id="loader-hourglass" class="lds-hourglass"></div>
+                </div>
+           
+  
+        <div class="inner-box">
+            <div class="header">
+                <pre style="color:white">Current    Weather</pre>
+            </div>
+            <div class="select">
+
+                <div class="select-top">
+                    what's your Weather?
+                </div>
+
+                <div class="country">
+                    <input type="text" id="inpco" placeholder="country name">
+
+                </div>
+                <div class="city">
+                    <input type="text" id="inpci" placeholder="city name">
+
+                </div>
+
+
+
+
+            </div>
+            <div class="lower-text">
+                Enter Country And City Name
+            </div>
+            <div class="button">
+                <button id="btn">Find?</button>
+            </div>
+            <div class="result">
+
+              <div class="temprature">
+                  <span class="icont">
+                        <i class='fas fa-sun' id="icon1"></i>
+
+                  </span>
+                  <span class="tempres" id="tempress"> 
+                   
+
+                  </span>
+
+              </div>
+              <div class="humidity">
+                    <span class="iconh">
+                            <i class='fas fa-water' id="icon2"></i>
+
+                        </span>
+                        <span class="humres" id="humress">
+                             
+                        </span>
+
+              </div>
+                    
+
+            </div>
+
+        </div>
+    </div>
+</main>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='app.js'></script>
+</body>
+
+</html>
